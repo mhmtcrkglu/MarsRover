@@ -45,7 +45,7 @@ namespace MarsRover.Helpers
 
                     return roverModel;
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     return null;
                 }
@@ -67,7 +67,7 @@ namespace MarsRover.Helpers
                     var routeEnum = (MovementEnum)Enum.Parse(typeof(MovementEnum), route.ToString().ToUpper());
                     routeModel.Movements.Add(routeEnum);
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     return null;
                 }

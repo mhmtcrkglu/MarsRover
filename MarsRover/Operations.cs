@@ -67,7 +67,7 @@ namespace MarsRover
                     throw new InvalidOperationException();
             }
 
-            if (!ChecRoverPosition(rover))
+            if (!CheckRoverPosition(rover))
             {
                 return cloneRover;
             }
@@ -75,7 +75,7 @@ namespace MarsRover
             return rover;
         }
 
-        private static bool ChecRoverPosition(RoverModel rover)
+        private static bool CheckRoverPosition(RoverModel rover)
         {
             if (rover.Position.PositionX > rover.Plateau.SizeOfX || rover.Position.PositionX < 0 ||
                 rover.Position.PositionY > rover.Plateau.SizeOfY || rover.Position.PositionY < 0)
