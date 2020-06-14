@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5aa470ad-eefa-4d5f-ac44-5e0faf3805f6" name="Default Changelist" comment="" />
+    <list default="true" id="5aa470ad-eefa-4d5f-ac44-5e0faf3805f6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MarsRover/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MarsRover/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +11,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/MarsRover/Program.cs" root0="FORCE_HIGHLIGHTING" />
@@ -94,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1592145088530</updated>
       <workItem from="1592145092672" duration="4335000" />
-      <workItem from="1592150606388" duration="1161000" />
+      <workItem from="1592150606388" duration="1409000" />
     </task>
     <task id="LOCAL-00001" summary="project add to vcs">
       <created>1592145178167</created>
@@ -274,6 +277,10 @@
     </state>
     <state x="496" y="272" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1592150979579" />
     <state x="496" y="271" key="Vcs.Push.Dialog.v2/0.23.1792.1022@0.23.1792.1022" timestamp="1592145181055" />
+    <state x="679" y="484" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592152998947">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="679" y="484" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1792.1120@0.0.1792.1120" timestamp="1592152998947" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
