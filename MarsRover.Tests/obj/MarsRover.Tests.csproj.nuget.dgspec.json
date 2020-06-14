@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mehmet.curukoglu/projects/mehmet/MarsRover/MarsRover.Tests/MarsRover.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/mehmet.curukoglu/projects/mehmet/MarsRover/MarsRover.Tests/MarsRover.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mehmet.curukoglu/projects/mehmet/MarsRover/MarsRover.Tests/MarsRover.Tests.csproj",
+        "projectName": "MarsRover.Tests",
+        "projectPath": "/Users/mehmet.curukoglu/projects/mehmet/MarsRover/MarsRover.Tests/MarsRover.Tests.csproj",
+        "packagesPath": "/Users/mehmet.curukoglu/.nuget/packages/",
+        "outputPath": "/Users/mehmet.curukoglu/projects/mehmet/MarsRover/MarsRover.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mehmet.curukoglu/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/mehmet.curukoglu/projects/mehmet/MarsRover/MarsRover/MarsRover.csproj": {
+                "projectPath": "/Users/mehmet.curukoglu/projects/mehmet/MarsRover/MarsRover/MarsRover.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mehmet.curukoglu/projects/mehmet/MarsRover/MarsRover/MarsRover.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mehmet.curukoglu/projects/mehmet/MarsRover/MarsRover/MarsRover.csproj",
+        "projectName": "MarsRover",
+        "projectPath": "/Users/mehmet.curukoglu/projects/mehmet/MarsRover/MarsRover/MarsRover.csproj",
+        "packagesPath": "/Users/mehmet.curukoglu/.nuget/packages/",
+        "outputPath": "/Users/mehmet.curukoglu/projects/mehmet/MarsRover/MarsRover/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mehmet.curukoglu/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
