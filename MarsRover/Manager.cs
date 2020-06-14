@@ -12,16 +12,14 @@ namespace MarsRover
         public static List<RoverModel> Manage(RoversInputModel inputModel)
         {
             FillRovers(inputModel);
-
             ManagerOperation();
 
             return Rovers;
         }
 
-
+        //Fill RoverModel based on inputModel
         private static void FillRovers(RoversInputModel inputModel)
         {
-            //Rovers Fill Operation
             Rovers.AddRange(inputModel.RoversInput.Select(a => new RoverModel
             {
                 Id = a.Index,
@@ -30,7 +28,8 @@ namespace MarsRover
                 Route = InputHelper.RoverRoute(a.Route)
             }));
         }
-
+        
+        //Rovers move with route step by step
         private static void ManagerOperation()
         {
             foreach (var rover in Rovers)
@@ -41,15 +40,11 @@ namespace MarsRover
                     rover.Route.Movements.RemoveAt(0);
                 }
             }
-            var check = Rovers.Any(a => a.Route.Movements.Count > 0);
+            var checkMovement = Rovers.Any(a => a.Route.Movements.Count > 0);
 
-            if (check)
+            if (checkMovement)
             {
                 ManagerOperation();
-            }
-            else
-            {
-                return;
             }
         }
     }

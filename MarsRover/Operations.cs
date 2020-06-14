@@ -7,6 +7,7 @@ namespace MarsRover
 {
     public class Operations
     {
+        //Apply next action for rover
         public static RoverModel Apply(RoverModel rover)
         {
             switch (rover.Route.Movements.FirstOrDefault())
@@ -30,18 +31,21 @@ namespace MarsRover
             return rover;
         }
 
+        //Change direction; Turn Right 90 degrees
         private static RoverModel TurnRightRover(RoverModel rover)
         {
             rover.Position.Direction = (rover.Position.Direction + 1) > DirectionEnum.W ? DirectionEnum.N : rover.Position.Direction + 1;
             return rover;
         }
 
+        //Change direction; Turn Left 90 degrees
         private static RoverModel TurnLeftRover(RoverModel rover)
         {
             rover.Position.Direction = (rover.Position.Direction - 1) < DirectionEnum.N ? DirectionEnum.W : rover.Position.Direction - 1;
             return rover;
         }
-
+        
+        //Move 1 unit to the selected direction
         private static RoverModel MoveRover(RoverModel rover)
         {
             var cloneRover = rover;
@@ -74,16 +78,14 @@ namespace MarsRover
 
             return rover;
         }
-
+        
+        //Rover in the plateau checker
         private static bool CheckRoverPosition(RoverModel rover)
         {
-            if (rover.Position.PositionX > rover.Plateau.SizeOfX || rover.Position.PositionX < 0 ||
-                rover.Position.PositionY > rover.Plateau.SizeOfY || rover.Position.PositionY < 0)
-            {
-                return false;
-            }
-
-            return true;
+            return rover.Position.PositionX <= rover.Plateau.SizeOfX && 
+                   rover.Position.PositionX >= 0 && 
+                   rover.Position.PositionY <= rover.Plateau.SizeOfY && 
+                   rover.Position.PositionY >= 0;
         }
     }
 }
